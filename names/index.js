@@ -1,9 +1,9 @@
 let PeopleNamesList = require("../country/state/city/index");
 let impFunction = require("../utilities/utils/index");
 
-const getPeopleInCity = () => {
-  let PeopleNamesList = require("../country/state/city/index");
-  let impFunction = require("../utilities/utils/index");
+const getPeopleInCity = (peopleNamesList, impFunction) => {
+  //   let PeopleNamesList = require("../country/state/city/index");
+  //   let impFunction = require("../utilities/utils/index");
   let temp = impFunction(PeopleNamesList);
   return temp;
 };
